@@ -6,7 +6,9 @@ I hope to create a python desktop app to streamline my music remixing/publishing
 
 ## Roadmap
 To kick things off I made this detailed drawing of how this is going to work.
+
 ![alt text](https://i.imgur.com/AieKMQ8.png)
+
 As you can see, this should be straight forward.
 
 At the time of writing this, I have layed the ground work for the youtube converter and have begun tinkering with kivy for my UI. 
