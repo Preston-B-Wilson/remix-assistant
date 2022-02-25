@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header{
+    background-color: #1B1B1B;
+    width: 100%;
+    min-height: 109px;
+    height: 10.64453125vh;
+    display: grid;
+    grid-template-columns: 110px auto 110px;
+
+    #back-button{
+        background-color: transparent;
+        align-self: center;
+        justify-self: start;
+        width: 97px;
+        height: 42px;
+        padding: 0;
+        border: none;
+        margin-left: 36px;
+        margin-right: 0px;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    #location-readout{
+        background-color: transparent;
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        padding: 0;
+        border: none;
+        width: 295px;
+        height: 56px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    #home-button{
+        background-color: transparent;
+        width: 102px;
+        height: 42px;
+        padding: 0;
+        border: none;
+        align-self: center;
+        justify-self: end;
+        margin-right: 31px;
+        margin-left: 0px;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+}
+
+#body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    #left-side{
+        background-color: red;
+        height: 100vh;
+    }
+    
+    #right-side{
+        background-color: blue;
+        height: 100vh;
+    }
+}
+
+#left-header{
+    background-color: #232323;
+    width: 100%;
+    min-height: 71px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    #filter-status{
+        justify-self: start;
+        align-self: end;
+        margin-bottom: 10px;
+        margin-left: 36px;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+
+    #list-actions{
+        align-self: end;
+        justify-self: end;
+        margin-bottom: 14px;
+        padding: 0;
+        border: none;
+        margin-right: 37px;        
+        
+        .list-item{
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            margin-left: 10px;
+            font-size: 24px;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <button id="back-button">$ cd ..</button>
+      <h1 id="location-readout">/home/studio</h1>
+      <button id="home-button">$ cd ~</button>
+    </div>
+    <div id="body">
+      <div id="left-side">
+        <div id="left-header">
+          <h1 id="filter-status">All</h1>
+          <div id="list-actions">
+            <button class="list-item" id="archive-button">Archive</button>
+            <button class="list-item" id="remove-button">Remove</button>
+            <button class="list-item" id="sort-button">Sort</button>
+            <button class="list-item" id="filter-button">Filter</button>
+          </div>
+        </div>
+        <div id="left-body">
+          <div class="adv-list">
+
+            <div class="item-whole">
+              <div class="item-image">
+                <img src="https://picsum.photos/200/200" />
+              </div>
+              <div class="item-desc">
+                <h1 class="item-title"></h1>
+                <h1 class="item-date"></h1>
+              </div>
+              <div class="item-settings">
+                <img src="https://picsum.photos/200/200" />
+              </div>
+              <div class="item-status-readouts">
+                <div class="item-original-container">
+                  <button class="play-original"></button>
+                  <div class="item-original">OG</div>
+                </div>
+                <div class="item-audioedited-container">
+                  <button class="play-audioedited"></button>
+                  <div class="item-audioedited">FL</div>
+                </div>
+                <div class="item-videoedited">AE</div>
+                <div class="item-media">IM</div>
+                <div class="item-config">CF</div>
+              </div>
+              <div class="item-progress">YT</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="right-side">
+        <div id="right-body">
+          <div id="add-song">
+            <h1 id="add-song-title">Add Song</h1>
+            <div id="add-song-body">
+              <div id="add-song-input-container">
+                <h1 id="add-song-url-label">URL</h1>
+                <div id="add-song-url-container">
+                  <input id="add-song-input" type="text" />
+                  <button id="add-song-refresh"></button>
+                  <button id="add-song-download"></button>
+                </div>
+              </div>
+              <div id="add-song-result"></div>
+            </div>
+          </div>
+          <div id="quick-filter">
+            <h1 id="filter-tittle">Quick Filter</h1>
+            <div id="quick-inputs">
+              <button class="filter-button" id="filter-btn-all">All</button>
+              <button class="filter-button" id="filter-btn-live">Live</button>
+              <button class="filter-button" id="filter-btn-staged">Staged</button>
+              <button class="filter-button" id="filter-btn-prestage">Pre-Stage</button>
+              <button class="filter-button" id="filter-btn-preedit">Pre-Edit</button>
+              <button class="filter-button" id="filter-btn-new">New</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
